@@ -1,196 +1,182 @@
-WAVESHAPER - AUDIO PROCESSING STUDIO LICENSE AGREEMENT
-=======================================================
-Copyright (c) 2025-2026 Bernd Julian Hagen. All rights reserved.
+WaveShaper - Audio Processing Studio
+End User License Agreement (EULA)
 
-This document outlines the terms under which WaveShaper - Audio Processing Studio
-("Software") is provided to you. By using the Software, you agree to these terms.
+Copyright (c) 2025-2026 Arctisoft Studio / Bernd Julian Hagen
+All rights reserved.
 
-================================================================================
+Please read this agreement carefully before installing or using the software.
+By accepting this agreement, you agree to all terms below.
+
+
 1. LICENSE GRANT
-================================================================================
 
-You are granted a limited, non-exclusive, non-transferable license to:
+Arctisoft Studio grants you a non-exclusive, non-transferable license to
+install and use WaveShaper - Audio Processing Studio ("Software") on any
+Windows computer you own or control, for personal and commercial audio
+processing purposes.
 
-  - Download and install the Software on your personal devices
-  - Use the Software for personal and commercial audio processing
-  - Share the Software with others for promotional purposes
 
-This license does not permit modification, reverse engineering, or commercial
-distribution of the Software.
+2. PERMITTED USE
 
-================================================================================
-2. LICENSE KEY USAGE
-================================================================================
+You may:
 
-License keys are personal and non-transferable:
+  - Install the Software on an unlimited number of your own devices.
+  - Use the Software for personal and commercial audio processing.
+  - Make backup copies of the installer for personal archival purposes.
+  - Distribute the original, unmodified installer for promotional purposes.
 
-  - Each key is intended for use by the original purchaser only
-  - Keys may be activated on up to 2 devices simultaneously
-  - Sharing or distributing your license key is prohibited
-  - Suspicious usage patterns may result in key deactivation
 
-The Author monitors activation patterns solely to prevent unauthorized sharing,
-not to track individual user activity.
+3. RESTRICTIONS
 
-================================================================================
-3. THIRD-PARTY COMPONENTS
-================================================================================
+You may not:
 
-WaveShaper incorporates the following open-source libraries:
+  - Reverse engineer, decompile, or disassemble the Software.
+  - Redistribute, sell, rent, or sublicense the Software without written
+    permission from Arctisoft Studio.
+  - Remove or alter any copyright, trademark, or proprietary notices.
+  - Use the Software for any purpose that violates applicable law.
 
-NAudio 2.2.1 - Licensed under MIT
-A comprehensive .NET audio library for file decoding, real-time playback,
-WASAPI/DirectSound audio device communication and sample processing.
-Website: https://github.com/naudio/NAudio
 
-NAudio.Lame 2.1.0 - Licensed under MIT (LAME is LGPL)
-Enables high-quality MP3 encoding through the LAME encoder for audio export.
-Website: https://github.com/Corey-M/NAudio.Lame
+4. LICENSE KEY USAGE
 
-TagLibSharp 2.3.0 - Licensed under LGPL
-Handles audio metadata operations, allowing reading and writing of file tags
-such as title, artist and album information.
-Website: https://github.com/mono/taglib-sharp
+WaveShaper can be installed and used free of charge. Features marked
+Premium in the Software require the purchase of a Premium license key.
 
-Newtonsoft.Json 13.0.4 - Licensed under MIT
-Provides JSON serialization for settings, preset files and configuration
-management throughout the application.
-Website: https://www.newtonsoft.com/json
+A Premium license key is personal to one person:
 
-Users should review and comply with the licensing terms of these components.
+  - A key may be used on up to 3 computers at the same time. You can
+    release a computer in Arctisoft Studio Hub to use the license on
+    another one. A computer that has not used the license for 45 days is
+    released automatically.
+  - Sharing, publishing or distributing your license key is prohibited.
+  - A license may be passed on only as a whole, using the transfer
+    function in Arctisoft Studio Hub. After a transfer you may no longer
+    use it.
+  - Keys that are misused or obtained by fraud may be deactivated.
 
-================================================================================
-4. DATA HANDLING
-================================================================================
+The computers using a license are recorded solely to apply these limits,
+not to track individual user activity. The License Agreement in Arctisoft
+Studio Hub states the complete terms.
 
-WaveShaper uses a shared account system with Medio. Only minimal data is stored
-on the server, while all settings and audio data remain local on your device.
 
-WHAT WAVESHAPER STORES ON THE SERVER:
+5. DATA HANDLING
+
+WaveShaper stores minimal data on the server while all settings and audio
+data remain local on your device.
+
+What WaveShaper stores on the server:
 
   - Progress: Experience points and level (updated after each export)
   - Avatar: Your profile image (if uploaded)
   - License: Current license type and activation status
 
-WHAT WAVESHAPER STORES LOCALLY:
+What WaveShaper stores locally:
 
   - Settings: EQ preferences, effect parameters, export configuration
   - Presets: Custom EQ presets and effect configurations
-  - History: Recent projects, downloads and export history
-  - Project library: Imported audio file references
+  - History: Recent projects, downloads, and export history
 
-WHAT WAVESHAPER DOES NOT STORE:
+What WaveShaper does not store:
 
   - Names, emails, addresses, or phone numbers
   - Payment information (handled securely by Stripe)
   - The actual content of processed audio files
   - Your file system activity outside of WaveShaper
-  - Settings or preferences on the server (all local)
 
-PRIVACY CONTROLS:
+Privacy controls:
 
-You have control over your data:
+  - Delete individual history entries via right-click context menus.
+  - Unlink your account via the application menu.
+  - Factory reset to remove all local settings and data.
 
-  - Delete individual history entries via right-click context menus
-  - Unlink your account via the application menu
-  - Factory reset to remove all local settings and data
+Data retention:
 
-DATA RETENTION:
+  - Basic accounts: Automatically deleted after 365 days of inactivity.
+  - Premium accounts: Retained while license is active.
 
-  - Basic accounts: Automatically deleted after 365 days of inactivity
-  - Premium accounts: Retained while license is active
 
-================================================================================
-5. PAYMENT AND REFUNDS
-================================================================================
+6. THIRD-PARTY COMPONENTS
 
-Payments are processed securely through Stripe. The Author does not store any
-payment information.
+WaveShaper incorporates the following open-source libraries:
 
-  - License keys are delivered via email within 5-10 minutes of purchase
-  - License keys are non-refundable once delivered
-  - For payment issues, contact Stripe support
-  - For license delivery issues, contact the Author
+  NAudio 2.2.1       MIT          Audio decoding, playback, device I/O
+  NAudio.Lame 2.1.0  MIT/LGPL     MP3 encoding via LAME encoder
+  TagLibSharp 2.3.0  LGPL         Audio metadata reading and writing
+  Newtonsoft.Json     MIT          JSON serialization for settings
 
-================================================================================
-6. YOUR RESPONSIBILITIES
-================================================================================
+Users should review and comply with the licensing terms of these components.
+
+
+7. PAYMENT AND REFUNDS
+
+Payments are processed securely through Stripe. Arctisoft Studio does not
+store any payment information.
+
+  - License keys are delivered via email after purchase.
+  - If your purchase email matches your Arctisoft account, the license is
+    linked automatically.
+  - 14-day money-back guarantee: you may ask for a full refund of a
+    Premium license within 14 days of purchase, without giving a reason.
+    The license ends when the refund is issued.
+  - Statutory consumer rights remain unaffected.
+  - For purchase, refund or license delivery questions, contact
+    support@arctisoft-studio.com.
+
+
+8. YOUR RESPONSIBILITIES
 
 When using WaveShaper, you are responsible for:
 
-  - Ensuring you have the legal right to process the audio content
-  - Complying with all applicable copyright and intellectual property laws
-  - Meeting any licensing requirements for audio files you process
-  - Complying with your local jurisdiction's laws
+  - Ensuring you have the legal right to process the audio content.
+  - Complying with all applicable copyright and intellectual property laws.
+  - Meeting any licensing requirements for audio files you process.
+  - Complying with your local jurisdiction's laws.
 
 WaveShaper is a technical tool that facilitates audio processing. The Software
-does not filter, restrict, or make judgments about content. This neutrality
-means that legal compliance is your responsibility.
+does not filter, restrict, or make judgments about content.
 
-The Author is not responsible for:
 
-  - How you choose to use the processed audio content
-  - Copyright infringement or other legal violations
-  - Any claims arising from the distribution of exported audio
-  - Quality or suitability of processed audio for any purpose
+9. DISCLAIMER OF WARRANTIES
 
-================================================================================
-7. DISCLAIMER OF WARRANTIES
-================================================================================
+The Software is provided "as is" without warranty of any kind, express or
+implied, including but not limited to warranties of merchantability, fitness
+for a particular purpose, or non-infringement. The entire risk as to the
+quality and performance of the Software is with you.
 
-The Software is provided "AS IS" without warranty of any kind. The Author makes
-no guarantees regarding:
 
-  - Continuous compatibility with any audio format or device
-  - Processing quality or real-time performance
-  - Freedom from errors or interruptions
-  - Fitness for any particular purpose
+10. LIMITATION OF LIABILITY
 
-Audio driver updates, system configuration, or technical limitations may affect
-the Software's functionality at any time.
+To the maximum extent permitted by applicable law, Arctisoft Studio shall
+not be liable for any indirect, incidental, special, exemplary, or
+consequential damages (including but not limited to loss of data, loss of
+audio files, or business interruption) arising from the use of or inability
+to use the Software, even if advised of the possibility.
 
-================================================================================
-8. LIMITATION OF LIABILITY
-================================================================================
 
-To the maximum extent permitted by law, the Author shall not be liable for any
-damages arising from your use of the Software, including but not limited to:
+11. LICENSE TERMINATION
 
-  - Loss of data or audio files
-  - Legal consequences from copyright infringement
-  - Claims by third parties related to processed content
-  - Technical issues or service interruptions
+Arctisoft Studio may terminate your license if you:
 
-================================================================================
-9. LICENSE TERMINATION
-================================================================================
-
-The Author may terminate your license if you:
-
-  - Violate any terms of this agreement
-  - Share or distribute your license key
-  - Use the Software for illegal purposes
+  - Violate any terms of this agreement.
+  - Share or distribute your license key.
+  - Use the Software for illegal purposes.
 
 Upon termination, you must stop using the Software and delete all copies.
 
-================================================================================
-10. GENERAL TERMS
-================================================================================
 
-By using WaveShaper, you acknowledge that you have read, understood, and agree
-to these terms. This agreement constitutes the entire understanding between you
-and the Author regarding the Software.
+12. GOVERNING LAW
 
-The Author reserves the right to update these terms. Continued use after changes
-indicates acceptance of the updated terms.
+This Agreement is governed by the laws of Austria. Any dispute arising out
+of or in connection with this Agreement shall be subject to the exclusive
+jurisdiction of the competent courts in Austria, subject to mandatory
+consumer protections and jurisdiction rights that apply to you.
 
-This agreement is governed by the laws of the Author's jurisdiction.
 
-================================================================================
-CONTACT
-================================================================================
+13. CONTACT
 
-For questions about this license or the Software:
-- GitHub Discussions: https://github.com/BerndHagen/WaveShaper-Audio-Processing-Studio/discussions
+Arctisoft Studio / Bernd Julian Hagen
+Email:   support@arctisoft-studio.com
+Website: https://arctisoft-studio.com
 
-Thank you for using WaveShaper - Audio Processing Studio.
+By selecting "I accept the license agreement" you confirm that you have read,
+understood, and agree to be bound by the terms of this EULA.
